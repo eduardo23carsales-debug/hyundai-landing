@@ -1,0 +1,13 @@
+{
+  "name": "hyundai-miami-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing Hyundai con backend para envio de leads a Telegram.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
