@@ -285,7 +285,7 @@
       font-size:12px;font-weight:800;color:var(--accent);
       letter-spacing:.4px;pointer-events:none;
     }
-    .tiny-stage img{width:100%;height:100%;object-fit:cover;border-radius:16px;transition:transform .4s}
+    .tiny-stage img{width:100%;height:100%;object-fit:contain;border-radius:16px;transition:transform .4s;background:#0a1525}
     .car-card:hover .tiny-stage img{transform:scale(1.05)}
     .tiny-stage .car-svg{width:96%;max-width:330px;filter:drop-shadow(0 18px 24px rgba(0,0,0,.35))}
 
@@ -519,7 +519,7 @@
       .grid{grid-template-columns:1fr}
       .strip{grid-template-columns:1fr}
       .tiny-stage{height:260px}
-      .tiny-stage img{object-fit:cover}
+      .tiny-stage img{object-fit:contain}
       .cta-final{flex-direction:column;align-items:flex-start}
       .cta-final-actions{width:100%;flex-direction:column}
       .cta-final-actions .btn{width:100%;justify-content:center}
